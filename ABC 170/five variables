@@ -32,4 +32,4 @@ nums = map(int, input().split())
 for i, num in enumerate(nums):
 	if num == 0:
 		print(i + 1)
-		break
+		break 
