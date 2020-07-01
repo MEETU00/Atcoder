@@ -1,0 +1,35 @@
+A = list(map(int, input().split()))
+print(A.index(0)+1)
+
+
+l = input().split()
+ans = l.index('0') + 1
+print(ans)
+
+
+arr = list(map(str, input().split()))
+for i in range(5):
+  if arr[i] == '0':
+    print(i+1)
+
+
+from sys import exit
+
+for index, value in enumerate(input().split(), 1):
+    if value == '0':
+        print(index)
+        exit()
+
+
+x = list(map(int, input().split()))
+
+for i in range(len(x)):
+  if x[i] == 0:
+    print(i+1)
+
+
+nums = map(int, input().split())
+for i, num in enumerate(nums):
+	if num == 0:
+		print(i + 1)
+		break
