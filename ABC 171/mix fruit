@@ -1,0 +1,16 @@
+n,k = map(int , input().split( ))
+p = list(map(int , input().split( )))
+ 
+p.sort()
+ 
+temp = 0
+for i in p[:k] :
+  temp += i
+print(temp)
+
+
+
+n, k = map(int,input().split())
+p = list(map(int, input().split()))
+p.sort()
+print(sum(p[:k]))
