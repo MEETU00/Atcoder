@@ -1,33 +1,27 @@
-x=int(input("enter animals"))
-y=int(input("enter leges"))
-if(y%2==0) and 2<y<
-
-
-
 X, Y = map(int, input().split())
- 
 if (Y/4 <= X <= Y/2 and Y % 2 == 0):
   print("Yes")
 else:
   print("No")
-
-  X,Y = map(int,input().split())
+  
+  
+X,Y = map(int,input().split())
 if Y%2 == 0:
   y = Y//2
 else:
   print('No')
   exit(0)
- 
-if X <= y <=2*X:
+ if X <= y <=2*X:
   print('Yes')
 else:
   print('No')
+  
 
 x, y = map(int, input().split())
 print('Yes' if y <= 4 * x and y >= 2 * x and y % 2 == 0 else 'No')
 
-x, y = map(int, input().split())
 
+x, y = map(int, input().split())
 if (2*x <= y <= 4*x) and (y % 2 == 0):
   print("Yes")
 else:
