@@ -9,7 +9,7 @@ a = list(map(int, input().split()))
     if result > 10**18:
         print(-1)
         exit()
-print(result)
+print(result
 
 n = int(input())
  
