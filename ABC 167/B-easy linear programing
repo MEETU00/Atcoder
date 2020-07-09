@@ -1,0 +1,25 @@
+a,b,c,k=map(int,input().split())
+if(k<=a):
+  print(k)
+else:
+  print(a-(k-a-b))
+
+
+
+A, B, C, K = map(int, input().split())
+if K<=A:
+    print(K)
+elif A<K<=A+B:
+    print(A)
+else:
+    print(A-(K-A-B))
+
+
+a,b,c,k = map(int,input().split())
+if a >= k:
+    print(k)
+elif (a+b) >= k:
+    print(a)
+else:
+    print(a-(k-a-b))
+
