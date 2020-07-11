@@ -1,0 +1,31 @@
+def main():
+    x = int(input())
+    total = 100
+    for i in range(10**5):
+        if total >= x:
+            print(i)
+            return
+        total += total//100
+
+if __name__ == "__main__":
+    main()
+
+X = int(input())
+x = 100
+year = 0
+
+while x<X:
+  x += x//100
+  year += 1
+
+print(year)
+
+X = int(input())
+ans = 0
+money = 100
+
+while money < X:
+  money += money//100
+  ans += 1
+  
+print(ans)
