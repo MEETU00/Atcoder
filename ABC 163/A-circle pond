@@ -1,9 +1,7 @@
 print(3.14159265359*2*int(input()))
 
-
 R=int(input())
 mod=3.141592
 print(2*mod*R)
-
 
 print(int(input()) * 2 * 3.14)
