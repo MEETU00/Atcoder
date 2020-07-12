@@ -1,14 +1,8 @@
-d = {}
-for i in range(int(input())):
-	d[input()] = 1
-print(len(d))
-
-
 N = int(input())
 goods = set([input() for _ in range(N)])
 print(len(goods))
 
-from math import *
+
 n=int(input())
 a=[]
 for i in range(n):
