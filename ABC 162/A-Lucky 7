@@ -3,35 +3,19 @@ if x[0]=="7" or x[1]=="7" or x[2]=="7":
     ans = "Yes"
 else:
     ans = "No"
-
 print(ans)
-
+**************************
 N = input()
-
 ans = "No"
 for s in N:
     if s == "7":
         ans = "Yes"
         break
 print(ans)
-
-N = input()
-if '7' in N:
-    print("Yes")
-else:
-    print("No")
-
-N = input()
-for n in N:
-  if int(n) == 7:
-    print('Yes')
-    exit()
-print('No')
-
-
+**************************
 print('Yes' if '7' in input() else 'No')
 
-
+**************************
 A = input()
 for a in range(3):
   if A[a] == '7':
@@ -39,5 +23,4 @@ for a in range(3):
     break
   if a == 2:
     print('No')
-
-
+************************
