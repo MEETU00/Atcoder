@@ -1,0 +1,27 @@
+N, M = map(int, input().split())
+A = list(map(int, input().split()))
+
+cnt = 0
+th = sum(A)/(4*M)
+
+for i in range(len(A)):
+  if A[i] >= th:
+    cnt += 1
+
+ans = 'Yes' if cnt >= M else 'No'
+print(ans)
+
+n,m = list(map(int,input().split()))
+A = list(map(int,input().split()))
+
+sum_A = sum(A) / 4 / m
+cnt = 0
+
+for i in A:
+  if i >= sum_A:
+    cnt += 1
+
+if cnt >= m:
+  print('Yes')
+else:
+  print('No')
