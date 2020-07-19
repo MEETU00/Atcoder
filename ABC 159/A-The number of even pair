@@ -1,5 +1,7 @@
 n,m = map(int,input().split())
 print(n*(n-1)//2+m*(m-1)//2)
+
+****************
 N=list(map(int,input().split()))
 ans=0
 for x in range(2):
@@ -8,3 +10,10 @@ for x in range(2):
   else:
     ans += N[x]*(N[x]-1)/2
 print(int(ans))
+
+*************
+a,b=map(int,input().split())
+c = a * (a-1)/2
+d = b*(b-1)/2
+res = int(c+d)
+print(res)
